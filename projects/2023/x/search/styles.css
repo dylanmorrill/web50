@@ -1,0 +1,215 @@
+@media only screen and (max-width: 1056px) {
+  .headerThree, .columnThree {
+    display: none;
+  }
+}
+
+body {
+  font-family: arial,sans-serif;
+}
+
+.advancedSearchHeader {
+  color: #d93025;
+  font-size: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.separator-line {
+  border-bottom: solid 1px #d6d6d6;
+}      
+
+.advancedForm {
+  max-width: 1140px;
+  min-width: 200px;
+  width: 96%;
+  padding: 40px;
+}
+
+.advancedFormUnit {
+  display: flex;
+}
+
+.headerOne, .columnOne {
+  min-width: 167px;
+  width: 16%;
+}
+
+.headerOne {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  height: 30px;
+}
+
+.columnOne {
+  color: #222;
+  font-size: 13px;
+}
+
+.headerTwo, .columnTwo {
+  min-width: 167px;
+  min-height: 41px;
+  width: 50%;
+}
+
+.headerThree, .columnThree {
+  min-width: 167px;
+  width: 33%;
+}
+
+.headerThree {
+  font-size: 13px;
+  font-weight: 700;
+  color: #777;
+  padding-left: 5px;
+  vertical-align: middle;
+}
+
+.columnThree {
+  color: #555;
+  font-size: 11px;
+  padding-left: 20px;
+}
+
+.advancedInput {
+  border-radius: 1px;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  font-size: 13px;
+  height: 25px;
+  padding: 1px 8px;
+  text-align: left;
+  width: 98%;
+}
+
+span {
+  color: #666;
+  font-family: monospace;
+  font-size: 11px;
+}
+
+.navBar {
+  text-align: right;
+  padding: 10px;
+}
+
+.navLink {
+  padding-left: 10px;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  text-decoration: none;
+  color: rgba(0,0,0,.87);
+}
+
+.navLink:hover{
+  text-decoration: underline;
+}
+
+.googleLogo {
+  height: 92px;
+}
+
+.pageMain {
+  text-align: center;
+  margin-top: 191px;
+}
+
+.body {
+  margin: 20px;
+}
+
+.searchInput {
+  height: 44px;
+  display: flex;
+  z-index: 3;
+  height: 44px;
+  background: #fff;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  padding-left: 20px;
+  margin: 0 auto;
+  width: 638px;
+  width: auto;
+  max-width: 584px;
+  outline: none;
+  min-width: 440px;
+}
+
+.searchInput:hover {
+  background-color: #fff;
+  box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+}
+
+form {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.simpleButtonContainer {
+  display: flex;
+}
+
+.simpleButtonDiv {
+  flex: 1;
+  text-align: left;
+}  
+
+.simpleButtonDiv:first-child {
+  margin-right: 10px;
+  text-align: right;
+} 
+
+.simpleSearchbutton {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: Roboto,arial,sans-serif;
+  font-size: 14px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.simpleSearchbutton:hover {
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+}
+
+.simpleSearchbutton:focus {
+  border: 1px solid #4285f4;
+  outline: none;
+}
+
+.advancedButton {
+  border-radius: 2px;
+  cursor: default;
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap;
+  outline: 0;
+  box-shadow: none;
+  background-color: #4d90fe;
+  border: 1px solid #3079ed;
+  color: #fff;
+  padding: 0 12px;
+  float: right;
+  margin: 10px 0;
+  user-select: none;
+  line-height: 100%;
+  height: 30px;
+  min-width: 120px;
+}
+
+.advancedButton:hover {
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 10%);
+  background-color: #3079ed;
+}

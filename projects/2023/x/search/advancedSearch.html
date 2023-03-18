@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Problem 0 - Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="navBar">
+      <a class="navLink" href="index.html">Back To Home</a>
+    </div>
+    <div class="pageMainAdvanced">
+      <p class="advancedSearchHeader">Advanced Search</p>
+      <div class="separator-line"></div>
+      <form class="advancedForm" action="https://www.google.com/search" method="get" id="advancedSearchForm">
+        <div class="advancedFormUnit">
+          <div class="headerOne">Find pages with...</div>
+          <div class="headerTwo"></div>
+          <div class="headerThree">To do this in the search box</div>
+        </div>
+        <div class="advancedFormUnit">
+          <div class="columnOne">all these words:</div>
+          <div class="columnTwo">
+            <input class="advancedInput" type="text" name="as_q">
+          </div>
+          <div class="columnThree">Type the important words: <span>tricolor rat terrier</span></div>
+        </div>
+        <div class="advancedFormUnit">
+          <div class="columnOne">this exact word or phrase:</div>
+          <div class="columnTwo">
+            <input class="advancedInput" name="as_epq" type="text">
+          </div>
+          <div class="columnThree">Put exact words in quotes: <span>"rat terrier"</span></div>
+        </div>
+        <div class="advancedFormUnit">
+          <div class="columnOne">any of these words:</div>
+          <div class="columnTwo">
+            <input class="advancedInput" name="as_oq" type="text">
+          </div>
+          <div class="columnThree">Type OR between all the words you want: <span>miniature OR standard</span></div>
+        </div>
+        <div class="advancedFormUnit">
+          <div class="columnOne">none of these words:</div>
+          <div class="columnTwo">
+            <input class="advancedInput" name="as_eq" type="text">
+          </div>
+          <div class="columnThree">Put a minus sign just before words you don't want: <span>-rodent, -"Jack Russell"</span></div>
+        </div>
+        <div class="advancedFormUnit">
+          <div class="columnOne"></div>
+          <div class="columnTwo">
+            <button class="advancedButton" form="advancedSearchForm" type="search">Advanced Search</button>
+          </div>
+          <div class="columnThree">
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
